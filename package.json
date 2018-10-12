@@ -1,0 +1,31 @@
+{
+  "name": "getgw",
+  "version": "0.1.0",
+  "author": {
+    "name": "Yoshitaka Sakamoto",
+    "url": "http://github.com/ystskm",
+    "email": "sakamoto@liberty-technology.biz"
+  },
+  "contributors": [],
+  "description": "",
+  "dependencies": {
+    "grunt-runner":">=1.2.0"
+  },
+  "devDependencies": {
+    "nodeunit": "*",
+    "nodeunit-ci": "*"
+  },
+  "keywords": ["util","network"],
+  "main": "index.js",
+  "repository": {
+    "url": "http://github.com/ystskm/node-getgw",
+    "type": "git"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test/_runner.js"
+  }
+}
